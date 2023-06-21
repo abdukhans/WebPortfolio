@@ -15,7 +15,7 @@ p {
     width: 100%;
 }
 .sideNav{
-    background-color: rgb(18, 18, 120);
+    background-color: rgb(15, 15, 62);
     width: 100px;
     height: 100%;
     padding: 0px;
@@ -32,12 +32,18 @@ p {
 }
 
 .sideLinksLink{
-    color: white;
+
     text-decoration: none;
     padding: 10px;
     height: 100px;
     text-align: center;
     border: 1;
+}
+
+.sideLinksLink a {
+    text-decoration: none;
+
+
 }
 
 .verticallyCentered{
