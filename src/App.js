@@ -1,52 +1,53 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+//import ReactDom from 'react-dom'
 import Home  from './pages/home'
 import Contact from './pages/contact'
 import Project from './pages/project'
 import Resume from './pages/resume'
-import {Link, Route, Routes} from 'react-router-dom'
+import SideNav from './sideNav'
+import {Route,Routes} from 'react-router-dom'
 
 
+// const HomeIcon = ()=>{
+//     return (
 
+        
+//         <Link to="/"  >
+//         <svg 
+//             xmlns="http://www.w3.org/2000/svg" 
+//             width="21" 
+//             height="21" 
+//             viewBox="0 0 21 21">
+
+//             <g fill="none" fill-rule="evenodd" stroke="white" stroke-linecap="round" stroke-linejoin="round">
+//             <path d="m1.5 10.5l9-9l9 9"/><path d="M3.5 8.5v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></g>
+//             </svg>
+//         </Link>
+//     )
+    
+// }
 
 const App = () =>{
     return(
     <>
-    <SideBar/>
+    <SideNav/>
      <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route path='/project' element={<Project/>} />
-        <Route path='/resume' element ={<Resume/> } />
-
+        <Route path='/contact' element = {<Contact/>} />
+        <Route path='/project' element = {<Project/>} />
+        <Route path='/resume'  element = {<Resume/> } />
      </Routes>
     </>
     )
 }
 
-const SideBar = () => {
-    return ( 
-    <div className='sideNav'>
-        <div className='verticallyCentered'>
-            {SideLinks({ text:'contacts', ref: '/contact'})}
-            {SideLinks({ text:'resume',   ref: '/resume'})}
-            {SideLinks({ text:'project',  ref: '/project'})}
-            {SideLinks({text:'home',ref: '/' })}
-        </div>
-    </div>
-    )
-}
 
 
-const SideLinks = ({text,ref,children}) =>{
-    return(
-        <div className='sideLinks'>
-            <div className='sideLinksLink'>
-            <Link to={ref}><p>{text}</p></Link>
-            </div>
-        </div>
-    )
-}
+
+
+
+
+
 
 export default App; 
 

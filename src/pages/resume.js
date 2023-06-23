@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+//import ReactDom from 'react-dom'
 
 
 const Resume = ()=>{
@@ -7,7 +7,9 @@ const Resume = ()=>{
 
     return (
     <>
-        <p> This is resume </p>
+        <div className='MainDiv'>
+            <p>This is Resume</p>
+        </div>
     </>)
 
 }

@@ -1,13 +1,15 @@
 import React from 'react'
-import ReactDom from 'react-dom'
-
+//import ReactDom from 'react-dom'
+import HeroPic from "../images/HeroPic.jpg"
 
 const Home = ()=>{
 
 
     return (<>
     
-    <p>Here is home</p>
+    <div className='MainDiv'>
+        <img src={HeroPic} style={{width: '100px'} } alt="Pic of me"  />       
+    </div>
     </>)
 }
 
