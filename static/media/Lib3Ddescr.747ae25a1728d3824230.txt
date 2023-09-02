@@ -1,0 +1,9 @@
+This is a 3D renderer made entirely out of python. 
+It has support for two drawing libraries namley, pygame and 
+a more obscure library called graphics.py. None of these libraries
+have 3D support, but I was able to nonetheless create a 3D renderer
+from both of these libraries. This project can load 3D objects
+from the internet and can do basic lighting as well as textures. What 
+makes this project particularly unique is that it uses no onpengl.
+All graphics calculations and drawing is done CPU side. As a result this 
+project has minimals dependecies.
