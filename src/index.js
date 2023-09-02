@@ -1,7 +1,8 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+//import ReactDom from 'react-dom'
 import App from './App'
 import {BrowserRouter} from "react-router-dom"
+import {createRoot} from "react-dom/client"
 import './style.css'
 
 
@@ -50,8 +51,14 @@ const FullApp = ()=>{
     </React.StrictMode>)
 }
 
- ReactDom.render( <FullApp/> , document.getElementById('root') );
 
+
+const container = document.getElementById('root')
+
+const root = createRoot(container)
+//ReactDom.render( <FullApp/> , document.getElementById('root') );
+
+root.render(<FullApp/>)
 
 
 

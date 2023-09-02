@@ -7,7 +7,7 @@ const Contact = ()=>{
 
     return (
         <div className='MainDiv'>
-
+            This is contacts
         </div>
     )
 }
