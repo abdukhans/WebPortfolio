@@ -392,7 +392,7 @@ const Home = () =>{
     return(
 
     
-    <Link className='Home' to="/WebPortFolio"> 
+    <Link className='Home' to="/WebPortfolio"> 
         <img src={BackSvg} alt="Home" style={{"width": "20px"}}/>
     </Link>)
 }
