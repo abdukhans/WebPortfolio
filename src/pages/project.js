@@ -165,7 +165,7 @@ const Card = ({ card }) => {
         const transformCss = transString
 
 
-        console.log("IS CURRENT CSS: ", isInstant.current);
+        //console.log("IS CURRENT CSS: ", isInstant.current);
         const transTime = (isInstant.current) ? "0.0s" :   `${animTime}ms`
         const transitionCss = `transform ${transTime}  ease-in-out`
         // transitionCss = (switchBegin && currentIdx ===   ) ?  "transform 0.5s ease-in-out": transitionCss
@@ -220,7 +220,7 @@ const Card = ({ card }) => {
 
 
         countRend.current += 1;
-        console.log("NUM rends: ", countRend.current);
+        //console.log("NUM rends: ", countRend.current);
 
         //console.log("isINSTANT: ", isInstant);
         // if (switchBegin) {
@@ -245,9 +245,9 @@ const Card = ({ card }) => {
                 const firsElm = rendListImg[0];
                 const newList = rendListImg.filter((v, idx) => idx !== 0)
              
-                console.log("USE-EFFECT isInstant: ",isInstant.current);
+                //console.log("USE-EFFECT isInstant: ",isInstant.current);
                 isInstant.current = true
-                console.log("USE-EFFECT isInstant: ",isInstant.current,"\n______________");
+                //console.log("USE-EFFECT isInstant: ",isInstant.current,"\n______________");
                 setRendListImg([...newList, firsElm])
                 setActiveIdx(lstLen - 2)
 
@@ -258,9 +258,9 @@ const Card = ({ card }) => {
             } else if (activeIdx === 0 && !isInstant.current) {
                 const lastElm = rendListImg[lstLen - 1];
                 const newList = rendListImg.filter((v, idx) => idx !== lstLen - 1)
-                console.log("USE-EFFECT isInstant: ",isInstant.current);
+                //console.log("USE-EFFECT isInstant: ",isInstant.current);
                 isInstant.current = true
-                console.log("USE-EFFECT isInstant: ",isInstant.current,"\n______________");
+                //console.log("USE-EFFECT isInstant: ",isInstant.current,"\n______________");
                 setActiveIdx(1)
                 setRendListImg([lastElm, ...newList])
                 // isInstant.current = true
@@ -391,7 +391,6 @@ const Socials = () =>{
 const Home = () =>{
     return(
 
-    
     <Link className='Home' to="/WebPortfolio"> 
         <img src={BackSvg} alt="Home" style={{"width": "20px"}}/>
     </Link>)

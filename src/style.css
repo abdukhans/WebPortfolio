@@ -293,11 +293,10 @@ img.HeroPic{
 }
 
 
-/* .HeroButton:hover{
+.HeroButton:hover{
     cursor: pointer;
     
-} */
-
+} 
 .HeroButton:hover .HideSvg{
     animation: decrWidth 0.3s ease-in-out forwards ;
 }
@@ -455,12 +454,15 @@ section{
 
 .Arrow.Left:hover{
     opacity: var(--ArrowEndOpacity);
+    cursor: pointer;
 }
 
 
 .Arrow.Right:hover {
     opacity: var(--ArrowEndOpacity);
+    cursor: pointer;
 }
+
 /* 
 .LBound {
     display: flex;
@@ -473,7 +475,6 @@ section{
 
 
 .ProjectCard:hover{
-    cursor: pointer;
     animation:  bounce 0.1s ease-in-out forwards; 
 }
 
