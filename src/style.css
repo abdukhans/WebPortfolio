@@ -41,8 +41,6 @@ html{
     height: 100%;
     padding: 0px;
     margin: 0px;
-
-    
     position: fixed;
 }
 
@@ -295,10 +293,10 @@ img.HeroPic{
 }
 
 
-.HeroButton:hover{
+/* .HeroButton:hover{
     cursor: pointer;
     
-}
+} */
 
 .HeroButton:hover .HideSvg{
     animation: decrWidth 0.3s ease-in-out forwards ;

@@ -34,7 +34,7 @@ const App = () =>{
     <>
             {/* <SideNav cur= {location.pathname}/> */}
         <Routes>
-            <Route path='/'        element = {<Home/>   } />
+            <Route path='/WebPortfolio'        element = {<Home/>   } />
             <Route path='/contact' element = {<Contact/>} />
             <Route path='/project' element = {<Project/>} />
             <Route path='/resume'  element = {<Resume/> } />
