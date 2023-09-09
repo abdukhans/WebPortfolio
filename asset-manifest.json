@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebPortfolio/static/css/main.51b28fba.css",
-    "main.js": "/WebPortfolio/static/js/main.1bdbd5ae.js",
+    "main.css": "/WebPortfolio/static/css/main.fd3b2b9a.css",
+    "main.js": "/WebPortfolio/static/js/main.8b60f241.js",
     "static/media/Lib3Dp5.png": "/WebPortfolio/static/media/Lib3Dp5.13e6cd7ab965f5d8a734.png",
     "static/media/Lib3Dp7.png": "/WebPortfolio/static/media/Lib3Dp7.dd7afad0e973bc0c1d50.png",
     "static/media/Lib3Dp6.png": "/WebPortfolio/static/media/Lib3Dp6.3351f1e040c08b18a7c2.png",
@@ -18,11 +18,11 @@
     "static/media/Linkeden.svg": "/WebPortfolio/static/media/Linkeden.e66b914e1e4bd17b292342ef1e03794f.svg",
     "static/media/Lib3Ddescr.txt": "/WebPortfolio/static/media/Lib3Ddescr.747ae25a1728d3824230.txt",
     "index.html": "/WebPortfolio/index.html",
-    "main.51b28fba.css.map": "/WebPortfolio/static/css/main.51b28fba.css.map",
-    "main.1bdbd5ae.js.map": "/WebPortfolio/static/js/main.1bdbd5ae.js.map"
+    "main.fd3b2b9a.css.map": "/WebPortfolio/static/css/main.fd3b2b9a.css.map",
+    "main.8b60f241.js.map": "/WebPortfolio/static/js/main.8b60f241.js.map"
   },
   "entrypoints": [
-    "static/css/main.51b28fba.css",
-    "static/js/main.1bdbd5ae.js"
+    "static/css/main.fd3b2b9a.css",
+    "static/js/main.8b60f241.js"
   ]
 }
